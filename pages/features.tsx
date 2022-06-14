@@ -1,10 +1,8 @@
-import styled from 'styled-components';
-import AutofitGrid from 'Styles/GlobalStyles/AutofitGrid';
 import BasicCard from 'components/Cards/BasicCard';
 import Page from 'components/Page';
-import YoutubeVideo from 'components/YoutubeVideo';
 import SectionTitle from 'Styles/SectionTitle';
-import { Wrapper, CustomAutofitGrid } from 'Styles/features.style';
+import YoutubeVideo from 'components/YoutubeVideo';
+import { CustomAutofitGrid, Wrapper } from 'Styles/features.style';
 import { FEATURES } from 'Data/featuresData';
 
 export default function FeaturesPage() {
